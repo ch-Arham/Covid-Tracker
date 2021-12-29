@@ -1,0 +1,41 @@
+/* we write module because if we don't all the css may apply to all components
+there is interference and unpredictable code*/
+.container{
+    margin: 50px 0px;
+}
+
+.card{
+    margin: 0 3% !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    transition: 0.3s;
+}
+
+.card1:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px !important;
+}
+
+.card2:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px !important;
+}
+
+.card3:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px !important;
+}
+
+.infected{
+    border-bottom: 10px solid rgba(0,0,255,0.5);
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(0,255,0,0.5);
+}
+
+.deaths{
+    border-bottom: 10px solid rgba(255,0,0,0.5);
+}
+
+@media (max-width: 770px){
+    .card{
+        margin: 2% 0 !important;
+    }
+}
